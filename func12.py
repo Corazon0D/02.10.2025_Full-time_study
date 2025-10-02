@@ -39,6 +39,7 @@ def tree(lenght):
     t.backward(lenght)
     t.left(90)
 
-
+t.speed(0)
 tree(100)
 t.mainloop()
+# Рисует черепашка
