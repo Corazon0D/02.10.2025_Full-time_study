@@ -38,3 +38,8 @@ print(participants)
 
 print(meals)
 
+# Sorted - принимает iterable object, возвращает отсортированный список
+#reverse и key используются аналогично
+# Пример: новый список, отсортированный по убыванию
+sorted_meals = sorted(meals, reverse=True)
+print(sorted_meals)
